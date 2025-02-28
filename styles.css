@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo-ecolife.jpg');
+    background-size: cover;
+  background-position: center;
+  }
+
+  .body-cadastro{
+      height: 100vh;
+      background-image: url('cadastro.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .body-login{
+      height: 100vh;
+      background-image: url('login.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+  nav {
+    background-color: #13ad2094;
+    padding: 1em;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  } 
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1, h2, h3 {
+    color: #ffffffb7;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+  font-weight: bold;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    background-color: #b5c524;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  }  
+
+  a:hover {
+    color: #23527c;
+    background-color: #ffffff;
+  }
+  footer {
+    bottom: 0;
+    width: 98.3%;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    position: relative;
+  z-index: 1;
+  }
+
+  .footer-cadastro {
+    bottom: 0;
+    width: 99%;
+    height: 25px;
+    background-color: #333333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    position: fixed;
+  z-index: 1;
+  }
+  
+  p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+  color: #000000;
+  }
+
+  rp {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+  color: #ffffff;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+    font-size: 22px;
+  } 
+  .destaque {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #798609b4;
+    display: inline-block;
+  }
+
+  .destaque-cadastro {
+    font-size: 20px;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -1px;
+    padding: 0px;
+    padding-top: 0px;
+    line-height: 30px;
+    display: inline-block;
+  }
+
+  .destaque-login {
+    font-size: 20px;
+    color: #000000;
+    margin: 8px;
+    margin-top: 2px;
+    text-align: center;
+    display: block;
+    position: relative; /* adiciona position: relative */
+  }
+
+  .container {
+    text-align: center;
+  } 
+  
+  .rodape {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo-link {
+    width: 90px;
+    height: auto;
+    float: left;
+    margin-top: 1px;
+    margin-left: 4px;
+    cursor: pointer; 
+  transition: opacity 0.2s;
+  border: 1px solid #000000; 
+  }
+
+  .logo-link:hover {
+    opacity: 0.8; 
+  }
+  
+.botao {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  display: inline-block;
+  margin-right: -15px;
+}
+
+.botao:not(:last-child) {
+  border-right: 1px solid #000000;
+}
+
+.botao-cadastro {
+font-size: 20px;
+background-color: #ffffff;
+color: #000000;
+cursor: pointer;
+display: inline-block;
+margin-right: -5px;
+margin-top: 25px;
+}
+
+.botao-login {
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  margin: -150px;
+  }
+
+.form-campo {
+  width: 50%;
+  height: 15px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: -30px;
+  background-color: #f7f7f7;
+}
+
+.form-campo-login {
+  width: 50%;
+  height: 15px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  background-color: #f7f7f7;
+}
+
+.form-campo:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caixa-fundo {
+  background-color: #16d31f75;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+  width: 400px; /* largura da caixa */
+  height: 570px; /* altura da caixa */
+  position: absolute; /* posição absoluta */
+  top: 52%; /* 50% da altura da página */
+  left: 50%; /* 50% da largura da página */
+  transform: translate(-47%, -50%); /* centraliza a caixa */
+  margin: 22px auto; /* centraliza a caixa horizontalmente */
+}
+
+.caixa-fundo-login {
+  background-color: #16d31f75;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+  width: 400px; /* largura da caixa */
+  height: 500px; /* altura da caixa */
+  position: absolute; /* posição absoluta */
+  top: 52%; /* 50% da altura da página */
+  left: 50%; /* 50% da largura da página */
+  transform: translate(-47%, -50%); /* centraliza a caixa */
+  margin: 22px auto; /* centraliza a caixa horizontalmente */
+}
+
+.img-login {
+  width: 150px;
+  height: auto;
+  margin: 70px;
+  margin-top: 50px;
+  margin-left: 18.5%;
+  position: relative;
+  background-size: contain;
+  background-color: transparent;
+  box-shadow: none;
+  border: none; 
+}
+
+title {
+text-align: center;
+font-size: 20px;
+color: #ffffff;
+}
